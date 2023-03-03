@@ -56,7 +56,7 @@ cmake -B build -DCMAKE_BUILD_TYPE=Release \
 cmake --build build -j4
 ```
 
-3. run tese
+3. run test
 
 ```bash
 ./test.sh
