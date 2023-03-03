@@ -18,6 +18,13 @@ The `rs274` project is on github made by me, see:
 
 - A `rs274` library installed from [windsgo/rs274ngc-interpreter](https://github.com/windsgo/rs274ngc-interpreter)
 
+- Note
+
+    - Generally, you need to implement the `CANON FUNCTIONS` declared in `canon.hh`,
+      which is in the `rs274` headers.
+     
+    - `saicanon.cc` is one implementation for Stand Alone Interpreter, for example.
+
 ### Build Step
 
 #### Simple Way
