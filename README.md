@@ -25,6 +25,10 @@ The `rs274` project is on github made by me, see:
      
     - `saicanon.cc` is one implementation for Stand Alone Interpreter, for example.
 
+    - Alse, the 'xxx python xxx' content in `builtin_modules.cc` is required, to implement 
+      what is called in the `Interp::Interp()`. Yes, ah..., this is how `linuxcnc` 
+      is using embedded python, I don't clearly understand it. 
+
 ### Build Step
 
 #### Simple Way
